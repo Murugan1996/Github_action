@@ -6,7 +6,7 @@ on:
     branches: [ "main" ]  
   workflow_dispatch:  
 jobs:  
-  Logintodockerhub:  
+  Logintodockerhubdev:  
     runs-on: ubuntu-latest  
     environment: Dev  
     steps:  
@@ -20,7 +20,7 @@ jobs:
           password: ${{secrets.DOCKERHUBPASSWORD}}  
           
     
-  Logintodockerhub:  
+  LogintodockerhubQa:  
     runs-on: ubuntu-latest  
     environment: Qa  
     steps:  
