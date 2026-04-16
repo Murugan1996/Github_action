@@ -1,4 +1,4 @@
-name: CI  
+name: multi-env
 on:  
   push:  
     branches: [ "main" ]  
