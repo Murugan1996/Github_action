@@ -1,4 +1,4 @@
-name: CI
+name: parllel_jobs
 
 on:
   push:
